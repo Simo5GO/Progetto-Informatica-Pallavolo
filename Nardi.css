@@ -1,11 +1,12 @@
 #titolo_main {
   text-align: center;
   color: orange;
+  font-family: poppins
 }
 .box {
-  width: 50px;
+  width: 500px;
   margin-bottom: 10px;
-  background-color: blue;
   display: block;
+  font-family: poppins
 }  
   
