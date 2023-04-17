@@ -4,7 +4,7 @@
   font-family: poppins
 }
 .box {
-  width: 500px;
+  width: 500px; /*Mettere anche la lunghezza ed aumentare la dimensione del testo, ora è troppo piccolo*/
   margin-bottom: 10px;
   display: block;
   font-family: poppins
