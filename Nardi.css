@@ -1,15 +1,16 @@
 #titolo_main {
   text-align: center;
-  color: orange;
+  color: #f18701;
   font-size: 80px;
   display: block;
   width: 1000px;
   height: 100px;
   display: block;
-  border: 20px solid #adb5bd;
+  border: 20px solid #ef8354;
   margin-bottom: 100px;
-  position: relative;
+  position: static;
   left: 300px;
+  background: #fefae0
 }
 .box {
   width: 500px;
@@ -19,6 +20,7 @@
   font-family: poppins, Arial, sans-serif;
   border: 20px solid orange;
   text-align: center;
+  position: relative;
 }  
 /* unvisited link */
 a:link {
@@ -54,18 +56,16 @@ a:link, a:visited {
 }
 
 #storia {
-  position: relative;
   height: 100px;
   left: 100px; 
 }
 
 #regole {
-  position: relative;
   height: 100px;
   left: 500px;
 }
-#2_righe {
-  position: relative;
-  height: 300px;
+#righe {
+  height: 100px;
   left: 500px;
+  width: 688px;
 }
