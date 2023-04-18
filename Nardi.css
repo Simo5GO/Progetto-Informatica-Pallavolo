@@ -4,12 +4,12 @@
   font-family: poppins;
 }
 .box {
-  width: 500px; /*Mettere anche la lunghezza ed aumentare la dimensione del testo, ora è troppo piccolo*/
+  width: 500px;
   height: 200px;
   margin-bottom: 50px;
   display: block;
   font-family: poppins;
-  font-size: 20px;
+  font-size: 20;
   border: 30px solid orange;
 }  
   
