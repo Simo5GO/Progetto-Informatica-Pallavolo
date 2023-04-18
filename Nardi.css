@@ -1,12 +1,14 @@
 #titolo_main {
   text-align: center;
   color: orange;
-  font-family: poppins
+  font-family: poppins;
 }
 .box {
   width: 500px; /*Mettere anche la lunghezza ed aumentare la dimensione del testo, ora è troppo piccolo*/
+  lenght: 200px;
   margin-bottom: 10px;
   display: block;
-  font-family: poppins
+  font-family: poppins;
+  font-size: 20px;
 }  
   
