@@ -3,13 +3,8 @@
   color: orange;
   font-size: 80px;
   display: block;
-  width: 1000px;
-  height: 100px;
-  display: block;
   border: 20px solid #adb5bd;
   margin-bottom: 100px;
-  position: relative;
-  left: 300px;
 }
 .box {
   width: 500px;
