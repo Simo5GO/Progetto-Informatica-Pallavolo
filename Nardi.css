@@ -69,3 +69,7 @@ a:link, a:visited {
   left: 500px;
   width: 688px;
 }
+
+#body {
+  background-image: url("pallavolo.jpg");
+}
