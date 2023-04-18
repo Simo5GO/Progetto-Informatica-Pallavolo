@@ -1,0 +1,71 @@
+#titolo_main {
+  text-align: center;
+  color: orange;
+  font-size: 80px;
+  display: block;
+  width: 1000px;
+  height: 100px;
+  display: block;
+  border: 20px solid #adb5bd;
+  margin-bottom: 100px;
+  position: relative;
+  left: 300px;
+}
+.box {
+  width: 500px;
+  margin-bottom: 200px;
+  display: block;
+  font-size: 80px;
+  font-family: poppins, Arial, sans-serif;
+  border: 20px solid orange;
+  text-align: center;
+}  
+/* unvisited link */
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+  
+a:link, a:visited {
+  background-color: #e36414;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#storia {
+  position: relative;
+  height: 100px;
+  left: 100px; 
+}
+
+#regole {
+  position: relative;
+  height: 100px;
+  left: 500px;
+}
+#2_righe {
+  position: relative;
+  height: 300px;
+  left: 500px;
+}
