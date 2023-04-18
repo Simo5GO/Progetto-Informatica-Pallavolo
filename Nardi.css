@@ -8,8 +8,8 @@
   height: 200px;
   margin-bottom: 50px;
   display: block;
-  font-family: poppins;
-  font: 20px poppins;
+  font-size: 20px;
+  font-family: poppins
   border: 30px solid orange;
 }  
   
