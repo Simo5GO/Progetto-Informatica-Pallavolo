@@ -9,7 +9,7 @@
   margin-bottom: 50px;
   display: block;
   font-family: poppins;
-  font-size: 20;
+  font: 20px poppins;
   border: 30px solid orange;
 }  
   
