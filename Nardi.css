@@ -1,20 +1,20 @@
 #titolo_main {
   text-align: center;
   color: #f18701;
-  font-size: 80px;
-  display: block;
-  width: 1000px;
+  font-size: 85px;
+  font-family: poppins, Arial, sans-serif;
+  width: 800px;
   height: 100px;
-  display: block;
   border: 20px solid #ef8354;
-  margin-bottom: 100px;
   position: static;
-  left: 300px;
-  background: #fefae0
+  background: #fefae0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 150px;
 }
 .box {
   width: 500px;
-  margin-bottom: 200px;
+  margin-bottom: 300px;
   display: block;
   font-size: 80px;
   font-family: poppins, Arial, sans-serif;
@@ -57,12 +57,14 @@ a:link, a:visited {
 
 #storia {
   height: 100px;
-  left: 100px; 
+  left: 150px; 
+  top: 150px;
 }
 
 #regole {
   height: 100px;
-  left: 500px;
+  left: 450px;
+  top: 150px;
 }
 #righe {
   height: 100px;
@@ -70,6 +72,3 @@ a:link, a:visited {
   width: 688px;
 }
 
-#body {
-  background-image: url("pallavolo.jpg");
-}
