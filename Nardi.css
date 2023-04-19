@@ -21,7 +21,7 @@
   border: 20px solid orange;
   text-align: center;
   position: relative;
-}  
+}
 /* unvisited link */
 a:link {
   color: red;
@@ -45,7 +45,7 @@ a:active {
   color: blue;
   text-decoration: none;
 }
-  
+
 .box, a:link, a:visited{
   background-color: #e36414;
   color: white;
@@ -56,7 +56,7 @@ a:active {
 
 #storia {
   height: 100px;
-  left: 150px; 
+  left: 150px;
   top: 150px;
   padding: 14px 25px;
 }
@@ -70,25 +70,25 @@ a:active {
 #righe {
   height: 100px;
   left: 500px;
-  width: 688px; 
+  width: 688px;
   padding: 14px 25px;
 }
 
 * {
 	margin: 0;
 	padding: 0;
-	
+
 }
 
 nav {
 	width: 100%;
 	height: 80px;
 	background-color: black;
-	
+
 }
 
-ul {
-	
+ul {         /*Provare Monsterrat*/
+
 }
 
 ul li {
