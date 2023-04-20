@@ -84,4 +84,22 @@ div#hmenu li li a {
 h1 #hde {
   font-size: 90px;
   font-align: center;
-  
+}
+
+div.background {
+  background: url(klematis.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.hde{
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.hde h1{
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
