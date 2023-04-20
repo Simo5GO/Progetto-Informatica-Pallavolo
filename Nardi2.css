@@ -1,0 +1,102 @@
+div#hmenu {
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid black;
+  background: orange;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+div#hmenu ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+div#hmenu li {
+ width: 190px;
+ float: left;
+ margin: 0;
+ padding: 0;
+ border.right: 1px solid black;
+ color: black;
+}
+
+div#hmenu a {
+  display: block;
+  padding: 5px;
+  color: #353535;
+  text-decoration: none;
+}
+
+div#hmenu a:hover {
+  background-color: #000333;
+  color: #FFFFFF
+  text-decoration: none;
+}
+
+div#hmenu li ul {
+  display: none;
+}
+
+div#hmenu li:hover ul {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  width: 190px;
+  padding: 0;
+  margin: 0 0 0 -1px;
+  border: 1px solid black;
+  background: white;
+}
+
+div#hmenu link:visited {
+  color:
+}
+
+div#hmenu li li {
+  border: 1px solid black;
+  width: 190px;
+}
+
+div#hmenu li li a {
+  padding: 2px 2px 2px 10px;
+}
+
+
+.titolo {
+  font-family: Helvetica, Helvetica, sans-serif;
+  font-size: 50px;
+  margin: 55px
+}
+
+.sfondo {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.sfondo::before {
+  content:'';
+  background-image: url(R.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  Left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.35;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+}
