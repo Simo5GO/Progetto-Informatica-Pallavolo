@@ -78,7 +78,7 @@ div#hmenu li li a {
   background-color: #bde0fe;
   border: none;
   color: black;
-  padding: 5vw 10vw;
+  padding: 3vw 8vw;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -87,7 +87,7 @@ div#hmenu li li a {
   font-weight: bold;
   position: relative; /*sticky interessante*/
   top: 80px;
-  border-radius: 10px;
+  border-radius: 5vw;
   cursor: pointer;
   transition: 0.5;
   vertical-align:middle;
