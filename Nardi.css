@@ -78,11 +78,11 @@ div#hmenu li li a {
   background-color: #bde0fe;
   border: none;
   color: black;
-  padding: 2vw 5vw;
+  padding: 5vw 10vw;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 2vw;
+  font-size: 5vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   position: relative; /*sticky interessante*/
