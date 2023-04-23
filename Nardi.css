@@ -89,5 +89,22 @@ div#hmenu li li a {
   height: 80%;
   top: 80px;
   border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5;
  
 }
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  padding-right: 25px;
+}
+
+.button:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
