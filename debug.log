@@ -13,3 +13,8 @@
 [0421/172547.395:WARNING:minidump_to_upload_parameters.cc(71)] duplicate annotation name osarch, discarding value x86_64
 [0421/172547.395:WARNING:minidump_to_upload_parameters.cc(71)] duplicate annotation name pid, discarding value 6940
 [0421/172547.395:WARNING:minidump_to_upload_parameters.cc(71)] duplicate annotation name ptype, discarding value utility
+[0423/135445.418:ERROR:process_info.cc(617)] range at 0x0, size 0x28 fully unreadable
+[0423/135445.422:ERROR:process_info.cc(617)] range at 0x0, size 0x28 fully unreadable
+[0423/135445.447:WARNING:minidump_to_upload_parameters.cc(71)] duplicate annotation name osarch, discarding value x86_64
+[0423/135445.447:WARNING:minidump_to_upload_parameters.cc(71)] duplicate annotation name pid, discarding value 9180
+[0423/135445.447:WARNING:minidump_to_upload_parameters.cc(71)] duplicate annotation name ptype, discarding value utility
