@@ -154,16 +154,66 @@ div#hmenu li li a {
 }
 
 .selection {
-  width: 30%;
-  min-width: auto;
-  top: 90vw;
-  height: auto;
+  top: 100vw;
   position: relative;
   border: 5px solid black;
   border-radius: 5px;
 }
 
-.selection:hover {
+.img-ctr:hover {
   opacity: 0.5;
   transition: 0.5s;
+}
+
+#h2 {
+
+  color: white;
+  font-size: 5vw;
+  position: relative;
+  top: 65vw;
+}
+
+.img-ctr {
+  width: 50%;
+  max-width: 50%;
+  height: auto;
+  border-radius: 30px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  box-shadow: 1px 4px 22px 1px rgba (0, 0, 0, 0.43);
+  top: 230vw;
+}
+
+.img-ctr2 {
+  width: 50%;
+  max-width: 50%;
+  height: auto;
+  border-radius: 30px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 4px 22px 1px rgba (0, 0, 0, 0.43);
+  top: 230vw;
+  left: 25vw;
+}
+
+.sections {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+}
+
+#sezioni {
+  position: relative;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 2vw;
+  letter-spacing: 3px;
+ /* rotate: 350deg;*/
 }
