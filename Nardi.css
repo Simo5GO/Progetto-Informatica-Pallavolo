@@ -191,7 +191,6 @@ div#hmenu li li a {
   width: 50%;
   max-width: 50%;
   height: auto;
-  border-radius: 30px;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -204,12 +203,13 @@ div#hmenu li li a {
 
 .sections {
   width: inherit;
+  border-radius: 30px;
   height: inherit;
   position: absolute;
 }
 
 #sezioni {
-  position: relative;
+  position: absolute;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
