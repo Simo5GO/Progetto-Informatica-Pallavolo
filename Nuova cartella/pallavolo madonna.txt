@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        h1 {
+  text-shadow:   2px  2px 4px #747474a8,
+                -2px -2px 4px #cccccc5e;
+}
+        h2 {
+  text-shadow:   2px  2px 4px #ffeee7a4,
+                -5px -5px 4px #79757573;
+}
+        p {
+  text-shadow:   1px  1px 3px #777,
+                -1px -1px 3px #9e947dec;
+
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+        pre {
+  text-shadow:   1px  1px 3px #777,
+                -1px -1px 3px #9e947dec;
+}
+    </style>
+    <title>Tecniche Principali della Pallavolo</title>
+  </head>
+  
+  <body style="background-color:rgba(204, 203, 202, 0.712)">
+   <header style="background-image:url('sfondo 1.png');background-repeat:no-repeat;background-attachment:fixed;background-size:cover;">
+    <h1 style="text-align:center;">Tecniche Principali della Pallavolo</h1>
+    
+    <ul>
+      <li>Alzata</li>
+      <li>Battuta</li>
+      <li>Ricezione</li>
+      <li>Attacco</li>
+      <li>Muro</li>
+      <li>Difesa</li>
+      <br><br> 
+    </ul>
+    
+
+
+    </header>
+    
+    <article style="background-color:rgba(187, 167, 137, 0.932)">
+    <aside>
+        <p> <br>
+            <img src="battuta 1.jfif" alt="battuta" align="right" border="2" height="180" width="275" style="position:relative;left:-7px;top:10px">
+            <img src="battuta 2.jfif" alt="battuta" align="right" border="2" height="180" width="275" style="position:relative;left:-20px;top:10px">
+        </p>
+    </aside>
+    
+    <section>
+    
+    <h2 style="position:relative;left:5px;">Battuta</h2> 
+    
+        <p></p>
+    
+    <pre> È il colpo che mette in gioco la palla, inviandola al campo avversario.
+ Ci sono diversi tipi di battute, che siano esse dall'alto o dal basso. 
+ La Federazione italiana pallavolo, su consiglio dei tecnici delle nazionali giovanili,
+ ha adottato la battuta dal basso per i campionati allievi, allo scopo favorire 
+ le azioni di gioco.
+ Anche se la battuta dal basso risulta essere di più facile apprendimento, 
+ non avendo le caratteristiche di offensività, deve essere abbandonata non appena si è 
+ in grado di eseguire i servizi più insidiosi.</pre>
+
+</section>
+<section>
+    
+    <aside>
+        <p>
+            <br>
+            <img style="position:relative;left:-1535px;top:16px" src="bagher.jpg" alt="bagher" align="right" border="2" height="200" width="300">
+            <br>
+            
+    </aside>   
+    
+    <section>
+    <h2 style="position:relative;right:-1760px;">Bagher</h2>
+    
+        <p style="text-align:right;position:relative;right:-300px;">In genere, il bagher viene utilizzato quando la palla si presenta bassa, sotto la linea delle spalle.<br>
+        Come nel palleggio, anche nel bagher dobbiamo considerare una serie di aspetti<br>
+        che determinano la miglior riuscita di questo fondamentale.<br>
+        Tali aspetti sono rappresentati dalla traiettoria di arrivo della palla, dalla postura,<br>
+        dalle posizioni degli arti inferiori e superiori e dalle tipologie di bagher.<br>
+    </section>
+    <br> <br> <br> 
+</p>
+    
+    <img src="passaggio.jpg" alt="passaggio" align="right" border="2" height="210" width="230">
+        <h2>Palleggio</h2>
+        <p> Nella pallavolo il palleggio, o alzata, è il fondamentale usato da un giocatore che tocca la palla rapidamente per favorire la schiacciata di un altro giocatore.<br>
+        Quasi tutte le buone schiacciate sono il risultato di un buon palleggio, ovvero uno che rispetta le regole della trattenuta, e che l'attaccante (il giocatore che effettua la schiacciata)
+        <br>può prevedere e schiacciare facilmente.<br>
+        Questo significa che l'alzata deve essere, soprattutto, costante nello stile. Il fondamentale in sé è semplice, ma può essere difficile da padroneggiare.</p>
+        
+    
+    <br> <br> <br>
+    <img style="position:relative;left:-600;" src="schiacciata.gif" alt="schiacciata" align="right" border="2" height="200" width="300">
+    <br> 
+    <h2 style="position:relative;right:-2280px;">Schiacciata</h2>
+        <p>È un colpo di attacco potente.</p>
+        
+    <br> <br> <br>
+    
+    <h2>Muro</h2>
+        <p>È un fondamentale di difesa che consiste nel bloccare la palla alzando le braccia sopra la rete.</p>
+    
+    </section>
+    </article>
+  </body>
+</html>
