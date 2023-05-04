@@ -162,7 +162,7 @@ div#hmenu li li a {
   transition: 0.5s;
 }
 
-#h2 {
+.paragrafo h2 {
 
   color: white;
   font-size: 5vw;
@@ -199,4 +199,13 @@ div#hmenu li li a {
   font-size: 2vw;
   letter-spacing: 3px;
  /* rotate: 350deg;*/
+}
+
+.titoletti {
+  text-align: left;
+  position: relative;
+  top: 78vw;
+
+  font-size: 3vw;
+
 }
