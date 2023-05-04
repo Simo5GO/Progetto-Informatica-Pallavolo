@@ -5,10 +5,6 @@ html {
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  background-image: url(R3.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-color: #bde0fe;
 }
 
 div#hmenu {

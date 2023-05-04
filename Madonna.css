@@ -1,0 +1,62 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  
+  div#hmenu {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background: #00b4d8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  div#hmenu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  div#hmenu li {
+   width: auto; /*volendo si può anche differenziare a seconda della risoluzione del dispositivo*/
+   float: left;
+   margin: 0;
+   padding: 0;
+   border-right: 2px solid black;
+   color: black;
+  }
+  
+  div#hmenu a {
+    display: block;
+    padding: 3px; /*Reimpicciolire dimensione barra blu*/
+    color: #353535;
+    text-decoration: none;
+  }
+  
+  div#hmenu a:hover {
+    background-color: #000333;
+    color: #FFFFFF
+  }
+  
+  div#hmenu li ul {
+    display: none;
+  }
+  
+  div#hmenu li:hover ul {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 190px;
+    padding: 0;
+    margin: 0 0 0 -1px;
+    border: 1px solid black;
+    background: white;
+  }
+  
+  div#hmenu li li {
+    border: 1px solid black;
+    width: 190px;
+  }
