@@ -20,6 +20,7 @@ div#hmenu {
   background: #00b4d8;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  border-radius:10px;
 }
 
 div#hmenu ul {
