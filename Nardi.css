@@ -43,7 +43,8 @@ div#hmenu a {
 
 div#hmenu a:hover {
   background-color: #000333;
-  color: #FFFFFF
+  color: #FFFFFF;
+  transition: 0.5s;
 }
 
 div#hmenu li ul {
@@ -162,8 +163,7 @@ div#hmenu li li a {
   transition: 0.5s;
 }
 
-#h2 {
-
+.paragrafo h2 {
   color: white;
   font-size: 5vw;
   position: relative;
@@ -199,4 +199,52 @@ div#hmenu li li a {
   font-size: 2vw;
   letter-spacing: 3px;
  /* rotate: 350deg;*/
+}
+
+.titoletti {
+  text-align: justify;
+  position: relative;
+  top: 78vw;
+
+  font-size: 2vw;
+  height: 20%;
+  width: 60%;
+  border-right-width: 3px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.capletters {
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: algerian, courier;
+    line-height: 80%;
+}
+
+.campo {
+  position: relative;
+  top: 90vw;
+  left: 30vw;
+}
+
+.bjs {
+  position: relative;
+  top: 90vw;
+  background-color: #023e8a;
+  border: none;
+  color: black;
+  text-align: center;
+  padding: 1% 2%;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  position: relative; /*sticky interessante*/
+  border-radius: 5vw;
+  cursor: pointer;
+  transition: 0.5;
+  vertical-align: middle;
+
 }
