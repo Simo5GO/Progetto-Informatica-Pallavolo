@@ -225,11 +225,26 @@ div#hmenu li li a {
 .campo {
   position: relative;
   top: 90vw;
-  left: 33vw;
-
+  left: 30vw;
 }
 
 .bjs {
   position: relative;
   top: 90vw;
+  background-color: #023e8a;
+  border: none;
+  color: black;
+  text-align: center;
+  padding: 1% 2%;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  position: relative; /*sticky interessante*/
+  border-radius: 5vw;
+  cursor: pointer;
+  transition: 0.5;
+  vertical-align: middle;
+
 }
