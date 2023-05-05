@@ -225,12 +225,12 @@ div#hmenu li li a {
 .campo {
   position: relative;
   top: 90vw;
-  left: 30vw;
+  left: 21vw;
 }
 
 .bjs {
   position: relative;
-  top: 90vw;
+  top: 100vw;
   background-color: #023e8a;
   border: none;
   color: black;
