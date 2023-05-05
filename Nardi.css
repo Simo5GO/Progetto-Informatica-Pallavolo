@@ -222,9 +222,14 @@ div#hmenu li li a {
     line-height: 80%;
 }
 
-#campo {
+.campo {
   position: relative;
   top: 90vw;
   left: 33vw;
 
+}
+
+.bjs {
+  position: relative;
+  top: 90vw;
 }
