@@ -1,5 +1,5 @@
-file.Css:Tutti
-Main.html:Nardi
-Tecniche Pallavolo (Bagher, Battuta, Palleggio, Muro, Schiacciata, Tecniche Principali): Madonna
+main.html: Nardi
 Nardi.html: Nardi
+custom.css: Nardi
+tecniche-principali.html, palleggio.html, schiacciata.html, muro.html, battuta.html, bagher.html: Madonna
 Caselli.html: Caselli

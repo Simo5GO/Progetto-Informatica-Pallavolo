@@ -5,7 +5,7 @@
      <link rel="stylesheet" type="text/css" href="custom.css">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
-          <title>La Pallavolo</title>
+          <title>Le regole</title>
           <style>
             body {
               background-image: url(immagini/giocare-pallavolo-treviso.jpg);
@@ -20,10 +20,19 @@
   padding: 8px;
 }
 
-          </style>
+        </style>
 </head>
 <body>
-<!-- Links (sit on top) -->
+<!--script darkmode-->
+  <script> 
+    function myFunction() {
+      document.body.style.backgroundColor = "black";
+      document.getElementById("t1").style.color = "white";
+      document.getElementById("p1").style.color = "white";
+    }
+  </script>
+
+<!-- Links-->
 <div id="hmenu">
   <ul>
     <li>
@@ -32,6 +41,14 @@
     <li>
     <a href="https://www.federvolley.it/">Federazione</a>
     </li>
+
+    <li>
+      <a href="#">Darkmode</a>
+      <ul>
+        <li><a href="#" onclick="myFunction()">Attiva Darkmode</li>
+        <li><a href="main.html">Disattiva Darkmode</a></li>
+      </li>
+      </ul>
 
    <li>
    <a href="#">Contatti Federazione</a>
@@ -47,7 +64,7 @@
 <header>
   <div class="titoli">
     <h1>Le<br>Regole</h1>
-    <h2 style=font-size:50%>Quali sono e da chi sono scritte</h2>
+    <h2 style=font-size:50%>Quali sono</h2>
   </div>
 </header>
 <main>
@@ -102,7 +119,7 @@ if (el2 === "La palla è <b>fuori</b> se esce completamente dal campo e, vicever
         <li>i giocatori dell'altra formazione commettono un fallo</li>\
       </ul>\
       <p class=\"titoletti\" style=top:0vw><br>di seguito viene mostrata una tabella con le condizioni di vittoria</p>\
-      <table style=\"width:35%\">\
+      <table id=\"tn\" style=\"width:55%\">\
         <tr>\
           <th rowspan=\"2\">Condizioni di vittoria</th>\
           <td> 2 set su 3</td>\
