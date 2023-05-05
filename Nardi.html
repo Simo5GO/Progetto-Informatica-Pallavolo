@@ -45,9 +45,9 @@
 </header>
 <main>
 
-
-
-
+  <a href="Nardi.html">
+    <button type="button" class="bjs">Torna all'inizio</button>
+    </a>
   <button type="button" onclick="toggleColor()" class="bjs">Pagina successiva</button>
   <img id="im1" src="immagini/VolleyballRotation.svg.png" style=width:30%;height:auto; class="campo">
   <h3 id="t1" class="titoletti" style=font-size:3.9vw;top:50vw>Le basi</h3>
@@ -72,7 +72,6 @@ if (el === "Palla dentro, palla fuori") {
   document.getElementById("t1").innerHTML = "Il punteggio";
 }
 
-
 if (el2 === "Ogni squadra deve inviare la palla utilizzando un massimo di 3 tocchi: la palla può essere colpita con qualsiasi parte del corpo, ma non può essere trattenuta, colpita 2 volte di seguito o accompagnata. <br>Il gioco ha inizio con un servizio con cui si mette in gioco la palla oltre la rete verso gli avversari. Si esegue da dietro la linea di fondo campo entro 8 secondi dal fischio dell'arbitro.<br>Ogni volta che una squadra vince un'azione di gioco conquista <b>un punto</b> e la sua <b>battuta.</b>") {
   document.getElementById("p1").innerHTML = "I giocatori in campo si posizionano nelle sei zone. Il giocatore in zona 3 giocherà inizialmente come costruttore del gioco. Nelle zone 2 e 4 ci sono invece gli <b>attaccanti</b>.\
     I giocatori in zona 1, 6 e 5 sono i <b>difensori</b>, ed il loro compito è quello di inviare e difendere la palla al proprio costruttore. La prima preoccupazione è anche quella di non far cadere in terra il pallone.";
@@ -96,7 +95,7 @@ if (el2 === "La palla è <b>fuori</b> se esce completamente dal campo e, vicever
         <li>i giocatori dell'altra formazione commettono un fallo</li>\
       </ul>\
       <p class=\"titoletti\" style=top:0vw><br>di seguito viene mostrata una tabella con le condizioni di vittoria</p>\
-      <table style=\"width:55%\">\
+      <table style=\"width:35%\">\
         <tr>\
           <th rowspan=\"2\">Condizioni di vittoria</th>\
           <td> 2 set su 3</td>\
@@ -104,14 +103,15 @@ if (el2 === "La palla è <b>fuori</b> se esce completamente dal campo e, vicever
             <tr>\
               <td>3 set su 5</td>\
               </tr>\
-              </table>\;"
-
+              <tr>\
+                <th> Punti per vincere</th>\
+                <td> 25 + 2 in caso di parità punti a 24</td>\
+              </table>"
 }
-
-
 }
-    
     </script>
       
 
-</main>
+  </main>
+ </body>
+</html>

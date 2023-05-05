@@ -229,8 +229,9 @@ div#hmenu li li a {
 }
 
 .bjs {
-  position: relative;
-  top: 100vw;
+  position: absolute;
+  top: 95vw;
+  left: 49%;
   background-color: #023e8a;
   border: none;
   color: black;
@@ -241,10 +242,21 @@ div#hmenu li li a {
   font-size: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  position: relative; /*sticky interessante*/
+  position: relative;
   border-radius: 5vw;
   cursor: pointer;
   transition: 0.5;
-  vertical-align: middle;
+  vertical-align: right;
+}
 
+.bjs:hover {
+  background-color: #000333;
+  color: #FFFFFF;
+  transition: 0.5s;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
 }
