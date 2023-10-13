@@ -130,18 +130,17 @@ div#hmenu li li a {
   }
 
 .paragrafo {
-  height: 20%;
-  width: 30%;
-  font-size: 1.5vw;
+  width: 50%;
+  font-size: 2vw;
   position: relative;
   text-align: center;
   top: 93vw;
   border: 5px solid black;
   border-radius: 60px;
-  border-right-width: 3px;
+  border-right-width: 6px;
   text-align: justify;
   font-family: Helvetica, Geneva, Tahoma, sans-serif;
-  padding: 30px;
+  padding: 35px;
   margin: 50px;
   right: 2vw;
   background-color: white;
