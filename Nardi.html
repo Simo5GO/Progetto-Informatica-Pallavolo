@@ -70,14 +70,13 @@
   </div>
 </header>
 <main>
-
+<div id="mainRegole">
   <a href="Nardi.html">
     <button type="button" class="bjs">Torna all'inizio</button>
     </a>
   <button type="button" onclick="toggleColor()" class="bjs">Pagina successiva</button>
-  <img id="im1" src="immagini/VolleyballRotation.svg.png" style=width:30%;height:auto; class="campo">
-  <h3 id="t1" class="titoletti" style=font-size:3.9vw;top:50vw>Le basi</h3>
-  <p id="p1" class="titoletti" style=top:50vw;>Ogni squadra deve inviare la palla utilizzando un massimo di 3 tocchi: la palla può essere colpita con qualsiasi parte del corpo, ma non può essere trattenuta, colpita 2 volte di seguito o accompagnata. <br>Il gioco ha inizio con un servizio con cui si mette in gioco la palla oltre la rete verso gli avversari. Si esegue da dietro la linea di fondo campo entro 8 secondi dal fischio dell'arbitro.<br>Ogni volta che una squadra vince un'azione di gioco conquista <b>un punto</b> e la sua <b>battuta.</b></p>
+  <h3 id="t1" class="titoletti" style=font-size:5vw;top:67vw>Le basi</h3>
+  <p id="p1" class="titoletti" style=>Ogni squadra deve inviare la palla utilizzando un massimo di 3 tocchi: la palla può essere colpita con qualsiasi parte del corpo, ma non può essere trattenuta, colpita 2 volte di seguito o accompagnata. <br>Il gioco ha inizio con un servizio con cui si mette in gioco la palla oltre la rete verso gli avversari. Si esegue da dietro la linea di fondo campo entro 8 secondi dal fischio dell'arbitro.<br>Ogni volta che una squadra vince un'azione di gioco conquista <b>un punto</b> e la sua <b>battuta.</b></p>
   <script>
 
 function toggleColor() {
@@ -116,27 +115,15 @@ if (el2 === "Se la squadra in battuta perde il punto, il servizio passa a quella
 
 if (el2 === "La palla è <b>fuori</b> se esce completamente dal campo e, viceversa, se tocca anche di poco una delle righe del campo, è considerata <b>dentro.</b>") {
   document.getElementById("p1").innerHTML = "Una squadra vince un'azione di gioco e <b>fa punto</b> quando:<br>\
-      <ul class=\"titoletti\" style=left:1vw;top:0vw;>\
+      <ul class=\"titoletti\" style=left:1vw;top:5vw;>\
         <li>riesce a far cadere la palla nel campo avversario</li>\
         <li>i giocatori dell'altra formazione commettono un fallo</li>\
       </ul>\
-      <p class=\"titoletti\" style=top:0vw><br>di seguito viene mostrata una tabella con le condizioni di vittoria</p>\
-      <table id=\"tn\" style=\"width:55%\">\
-        <tr>\
-          <th rowspan=\"2\">Condizioni di vittoria</th>\
-          <td> 2 set su 3</td>\
-            </tr>\
-            <tr>\
-              <td>3 set su 5</td>\
-              </tr>\
-              <tr>\
-                <th> Punti per vincere</th>\
-                <td> 25 + 2 in caso di parità punti a 24</td>\
-              </table>"
+      "
 }
 }
     </script>
-      
+      </div>
 
   </main>
  </body>

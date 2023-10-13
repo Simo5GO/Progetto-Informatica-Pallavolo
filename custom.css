@@ -218,33 +218,32 @@ div#hmenu li li a {
 
 .titoletti {
   text-align: justify;
-  position: relative;
-  top: 78vw;
+  position: absolute;
+  top: 80vw;
   font-size: 2vw;
   height: 20%;
-  width: 60%;
+  width: 50%;
   border-right-width: 3px;
   padding: 10px;
   margin: 10px;
+  border-radius:5px;
 }
 
 .campo {
   position: relative;
-  top: 90vw;
-  left: 21vw;
+  width:100%;
+  height:auto;
+  top: 38vw;
+  left:15vw;
 }
 
 .bjs {
-  position: absolute;
-  top: 95vw;
-  left: 49%;
+  top: 82vw;
   background-color: #3488f5;
   border: none;
   color: black;
-  text-align: center;
   padding: 1% 2%;
   text-decoration: none;
-  display: inline-block;
   font-size: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
@@ -252,7 +251,7 @@ div#hmenu li li a {
   border-radius: 5vw;
   cursor: pointer;
   transition: 0.5;
-  vertical-align: right;
+  float:left;
 }
 
 .bjs:hover {
@@ -261,3 +260,6 @@ div#hmenu li li a {
   transition: 0.5s;
 }
 
+#tn {
+  top:50vw;
+}
